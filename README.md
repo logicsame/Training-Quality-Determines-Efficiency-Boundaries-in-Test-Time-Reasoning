@@ -1,0 +1,1 @@
+# Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning
