@@ -1,13 +1,15 @@
 # Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
 
-[![Paper](https://img.shields.io/badge/Paper-DOI-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/[YOUR_DOI_HERE])
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-FFD21E?style=flat-square)](https://huggingface.co/datasets/[HF_USERNAME]/[HF_DATASET_NAME])
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/docs/transformers)
-![Models](https://img.shields.io/badge/Models%20Evaluated-50-2ea44f?style=flat-square)
-![Evaluations](https://img.shields.io/badge/Evaluations-67%2C000%2B-orange?style=flat-square)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
+<table><tr>
+<td><a href="https://doi.org/[YOUR_DOI_HERE]"><img src="https://img.shields.io/badge/Paper-DOI-b31b1b?style=flat-square&logo=arxiv"></a></td>
+<td><a href="https://huggingface.co/datasets/[HF_USERNAME]/[HF_DATASET_NAME]"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-FFD21E?style=flat-square"></a></td>
+<td><a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white"></a></td>
+<td><a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a></td>
+<td><a href="https://huggingface.co/docs/transformers"><img src="https://img.shields.io/badge/Transformers-4.36%2B-FFD21E?style=flat-square&logo=huggingface"></a></td>
+<td><img src="https://img.shields.io/badge/Models-50-2ea44f?style=flat-square"></td>
+<td><img src="https://img.shields.io/badge/Evaluations-67%2C000%2B-orange?style=flat-square"></td>
+<td><a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square"></a></td>
+</tr></table>
 
 ---
 
@@ -487,7 +489,7 @@ All experiments use **greedy decoding** (`do_sample=False`) as the primary setti
 
 ## Citation
 
-> 📄 **[Paper](https://doi.org/[YOUR_DOI_HERE])**
+> 📄 **[Paper](https://doi.org/[YOUR_DOI_HERE])** 
 
 ```bibtex
 @article{training-quality-efficiency-2025,
