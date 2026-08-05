@@ -1,47 +1,19 @@
-<div align="center">
-
 # Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
 
-<<<<<<< HEAD
-<p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#key-findings">Key Findings</a> •
-  <a href="#repository-structure">Repository</a> •
-  <a href="#quickstart">Quickstart</a> •
-  <a href="#reproducing-all-results">Reproduction</a> •
-  <a href="#citation">Citation</a>
-</p>
-
-<p align="center">
-  <a href="https://doi.org/[YOUR_DOI_HERE]">
-    <img src="https://img.shields.io/badge/📄%20Paper-DOI-b31b1b?style=flat-square" />
-  </a>
-  <a href="https://huggingface.co/datasets/[username]/training-quality-reasoning-efficiency">
-    <img src="https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow?style=flat-square" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python" />
-  <img src="https://img.shields.io/badge/PyTorch-2.1%2B-ee4c2c?style=flat-square&logo=pytorch" />
-  <img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=flat-square&logo=huggingface" />
-  <img src="https://img.shields.io/badge/Models%20Evaluated-50-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Evaluations-67%2C000%2B-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" />
-</p>
-
-</div>
+[![Paper](https://img.shields.io/badge/Paper-DOI-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/[YOUR_DOI_HERE])
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-FFD21E?style=flat-square)](https://huggingface.co/datasets/[HF_USERNAME]/[HF_DATASET_NAME])
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/docs/transformers)
+![Models](https://img.shields.io/badge/Models%20Evaluated-50-2ea44f?style=flat-square)
+![Evaluations](https://img.shields.io/badge/Evaluations-67%2C000%2B-orange?style=flat-square)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
 
 ---
 
 ## Overview
 
 This repository contains the complete, end-to-end reproducible pipeline for the paper **"Training Quality Determines Efficiency Boundaries in Test-Time Reasoning"** — a systematic empirical study of when additional inference tokens help, hurt, or have no effect on language model reasoning.
-=======
-## Overview
-
-This repository provides complete code and data for reproducing all experiments,
-figures, and tables in the paper. The study examines how training methodology
-determines token efficiency in language model reasoning across all models and
-67,000+ evaluations.
->>>>>>> 9c8493eddcb6ec770a3a048a0e202892081f3042
 
 The central finding challenges the prevailing test-time compute paradigm: **training quality yields a 5.0–18.8× efficiency advantage at matched parameter scales**, exceeding the gains from ten-fold parameter increases. We evaluate 50 language models (0.5B–685B parameters) across six reasoning benchmarks totalling over 67,000 individual assessments.
 
@@ -515,7 +487,7 @@ All experiments use **greedy decoding** (`do_sample=False`) as the primary setti
 
 ## Citation
 
-> 📄 **[Paper](https://doi.org/[YOUR_DOI_HERE])** — replace `[YOUR_DOI_HERE]` with your DOI once assigned.
+> 📄 **[Paper](https://doi.org/[YOUR_DOI_HERE])**
 
 ```bibtex
 @article{training-quality-efficiency-2025,
