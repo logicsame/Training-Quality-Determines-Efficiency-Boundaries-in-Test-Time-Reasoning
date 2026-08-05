@@ -1,8 +1,5 @@
 # Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
 
-> **Anonymous submission to NeurIPS 2026**  
-> Do not distribute or share publicly during review.
-
 ## Overview
 
 This repository provides complete code and data for reproducing all experiments,
