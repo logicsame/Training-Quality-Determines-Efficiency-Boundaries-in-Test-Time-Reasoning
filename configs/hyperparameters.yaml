@@ -1,0 +1,25 @@
+# Analysis hyperparameters
+
+qscore:
+  qc_weight: 0.7       # Quality Control weight
+  decomp_weight: 0.3   # Decomposition weight
+  diversity_weight: 0.5 # Within QC
+  usage_weight: 0.5    # Within QC
+
+tier_thresholds:
+  excellent: 0.88   # Tier 1
+  good: 0.79        # Tier 2
+  moderate: 0.58    # Tier 3
+  poor: 0.38        # Tier 4
+  # Below 0.38 = Tier 5 (Insufficient)
+
+statistical:
+  alpha: 0.05
+  bonferroni_tests: 236  # Total pairwise comparisons
+  min_detectable_effect: 18  # pp, at n=50
+  random_seed: 42
+
+annotation:
+  n_errors_annotated: 58
+  n_annotators: 2
+  blinding: "condition labels hidden from second annotator"

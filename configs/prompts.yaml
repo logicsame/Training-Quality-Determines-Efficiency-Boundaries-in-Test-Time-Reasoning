@@ -1,0 +1,57 @@
+# Prompt templates for all evaluation conditions
+# No model-specific engineering applied (Section 2.1)
+
+standard:
+  gsm8k: |
+    Problem: {question}
+    Solution:
+  boolq: |
+    Question: {question}
+    Answer (True or False):
+  arc_easy: |
+    Question: {question}
+    Choices:
+    A) {choice_a}
+    B) {choice_b}
+    C) {choice_c}
+    D) {choice_d}
+    Answer:
+  commonsenseqa: |
+    Question: {question}
+    Choices:
+    A) {choice_a}
+    B) {choice_b}
+    C) {choice_c}
+    D) {choice_d}
+    E) {choice_e}
+    Answer:
+  mmlu_stem: |
+    Question: {question}
+    A) {choice_a}
+    B) {choice_b}
+    C) {choice_c}
+    D) {choice_d}
+    Answer:
+  gpqa: |
+    Question: {question}
+    (A) {choice_a}
+    (B) {choice_b}
+    (C) {choice_c}
+    (D) {choice_d}
+    Answer:
+
+causal_intervention:
+  control: |
+    Problem: {question}
+    Solution:
+  brief: |
+    Problem: {question}
+    Provide a BRIEF solution in under 50 words.
+    Solution:
+
+generation:
+  do_sample: false
+  temperature: 1.0  # Ignored when do_sample=False
+  top_p: 1.0
+  repetition_penalty: 1.0
+  dtype: float16

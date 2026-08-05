@@ -1,0 +1,211 @@
+# Model configurations for all three phases
+# All models evaluated with: do_sample=False, FP16 precision
+
+phase1_standard:
+  # 31 standard models (0.5B-405B)
+  models:
+    - name: "Qwen/Qwen2.5-0.5B-Instruct"
+      params_b: 0.5
+      family: "Qwen"
+      arch: "Std"
+    - name: "google/gemma-3-1b-it"
+      params_b: 1.0
+      family: "Gemma"
+      arch: "Std"
+    - name: "meta-llama/Llama-3.2-1B-Instruct"
+      params_b: 1.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "stabilityai/stablelm-2-1_6b"
+      params_b: 1.6
+      family: "StableLM"
+      arch: "Std"
+    - name: "google/gemma-2-2b-it"
+      params_b: 2.0
+      family: "Gemma"
+      arch: "Std"
+    - name: "meta-llama/Llama-3.2-3B-Instruct"
+      params_b: 3.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "stabilityai/stablelm-zephyr-3b"
+      params_b: 3.0
+      family: "StableLM"
+      arch: "Std"
+    - name: "Qwen/Qwen2.5-3B-Instruct"
+      params_b: 3.0
+      family: "Qwen"
+      arch: "Std"
+    - name: "microsoft/Phi-3-mini-4k-instruct"
+      params_b: 3.8
+      family: "Phi"
+      arch: "Std"
+    - name: "microsoft/Phi-3.5-mini-instruct"
+      params_b: 3.8
+      family: "Phi"
+      arch: "Std"
+    - name: "nvidia/Llama-3.1-Minitron-4B-Width-Base"
+      params_b: 4.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "nvidia/Llama-3.1-Minitron-4B-Depth-Base"
+      params_b: 4.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "01-ai/Yi-1.5-6B-Chat"
+      params_b: 6.0
+      family: "Yi"
+      arch: "Std"
+    - name: "mistralai/Mistral-7B-Instruct-v0.3"
+      params_b: 7.0
+      family: "Mistral"
+      arch: "Std"
+    - name: "deepseek-ai/deepseek-llm-7b-base"
+      params_b: 7.0
+      family: "DeepSeek"
+      arch: "MLA"
+    - name: "Qwen/Qwen2.5-7B-Instruct"
+      params_b: 7.0
+      family: "Qwen"
+      arch: "Std"
+    - name: "meta-llama/Llama-3.1-8B-Instruct"
+      params_b: 8.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "nvidia/Llama-3.1-Nemotron-Nano-8B-v1"
+      params_b: 8.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "google/gemma-2-9b-it"
+      params_b: 9.0
+      family: "Gemma"
+      arch: "Std"
+    - name: "meta-llama/Llama-2-13b-chat-hf"
+      params_b: 13.0
+      family: "Llama"
+      arch: "Std"
+    - name: "Qwen/Qwen2.5-14B-Instruct"
+      params_b: 14.0
+      family: "Qwen"
+      arch: "Std"
+    - name: "OpenGPT/gpt-oss-20b"
+      params_b: 20.0
+      family: "GPT"
+      arch: "Std"
+    - name: "mistralai/Mistral-Small-24B-Instruct-2501"
+      params_b: 24.0
+      family: "Mistral"
+      arch: "Std"
+    - name: "moonshotai/Kimi-K2-Instruct"
+      params_b: 32.0
+      family: "Kimi"
+      arch: "Std"
+    - name: "Qwen/Qwen2.5-32B-Instruct"
+      params_b: 32.0
+      family: "Qwen"
+      arch: "Std"
+    # API-based models (Groq)
+    - name: "gemini-2.0-flash"
+      params_b: 50.0
+      family: "Gemini"
+      arch: "Std"
+      api: "groq"
+    - name: "deepseek-ai/deepseek-llm-67b-base"
+      params_b: 67.0
+      family: "DeepSeek"
+      arch: "MLA"
+    - name: "meta-llama/Llama-3-70B"
+      params_b: 70.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "meta-llama/Llama-3-70B-Instruct"
+      params_b: 70.0
+      family: "Llama"
+      arch: "GQA"
+    - name: "llama-3.3-70b-versatile"
+      params_b: 70.0
+      family: "Llama"
+      arch: "GQA"
+      api: "groq"
+    - name: "meta-llama/Llama-3.1-405B-Instruct"
+      params_b: 405.0
+      family: "Llama"
+      arch: "GQA"
+      api: "groq"
+
+  datasets:
+    - gsm8k
+    - boolq
+    - arc-easy
+    - commonsenseqa
+    - mmlu-stem
+  samples_per_dataset: 300
+
+phase2_ablation:
+  # 8 representative models for token ablation
+  models:
+    - "meta-llama/Llama-3.2-1B-Instruct"
+    - "Qwen/Qwen2.5-3B-Instruct"
+    - "mistralai/Mistral-7B-Instruct-v0.3"
+    - "Qwen/Qwen2.5-7B-Instruct"
+    - "meta-llama/Llama-3.1-8B-Instruct"
+    - "google/gemma-2-9b-it"
+    - "Qwen/Qwen2.5-72B-Instruct"
+    - "meta-llama/Llama-3.1-405B-Instruct"
+  datasets:
+    - gsm8k
+    - boolq
+    - arc-easy
+  token_limits: [300, 500, 1000, 2000]
+  samples_per_condition: 50
+
+phase3_reasoning:
+  # 13 reasoning-specialised models
+  models:
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+      params_b: 1.5
+      short: "DS-R1-1.5B"
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+      params_b: 7.0
+      short: "DS-R1-7B"
+    - name: "AIDC-AI/Marco-o1"
+      params_b: 7.0
+      short: "Marco-o1-7B"
+    - name: "nvidia/Llama-3.1-Nemotron-70B-Instruct"
+      params_b: 7.0
+      short: "Nemotron-7B"
+    - name: "Skywork/Skywork-o1-Open-Llama-3.1-8B"
+      params_b: 8.0
+      short: "Skywork-o1-8B"
+    - name: "THUDM/glm-4-9b-chat"
+      params_b: 9.0
+      short: "GLM-4.5"
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+      params_b: 14.0
+      short: "DS-R1-14B"
+    - name: "Qwen/QwQ-32B-Preview"
+      params_b: 32.0
+      short: "QwenQwQ-32B"
+    - name: "Qwen/Qwen3-32B"
+      params_b: 32.0
+      short: "Qwen3-32B-O1"
+    - name: "THUDM/glm-4.7-355b"
+      params_b: 32.0
+      short: "GLM-4.7"
+    - name: "moonshotai/Kimi-2.5-1T"
+      params_b: 32.0
+      short: "Kimi2.5"
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+      params_b: 70.0
+      short: "DS-R1-70B"
+    - name: "deepseek-ai/DeepSeek-R1"
+      params_b: 685.0
+      short: "DS-R1-685B"
+  datasets:
+    - gsm8k
+    - boolq
+    - arc-easy
+    - gpqa
+  token_limits_small: [300, 500, 1000, 2000, 4000]
+  token_limits_large: [300, 500, 1000, 2000, 4000, 8000]
+  samples_per_condition: 50
