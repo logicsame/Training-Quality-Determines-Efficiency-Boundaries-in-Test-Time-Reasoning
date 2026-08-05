@@ -4,7 +4,7 @@
 
 This repository provides complete code and data for reproducing all experiments,
 figures, and tables in the paper. The study examines how training methodology
-determines token efficiency in language model reasoning across 44 models and
+determines token efficiency in language model reasoning across all models and
 67,000+ evaluations.
 
 ## Key Results
