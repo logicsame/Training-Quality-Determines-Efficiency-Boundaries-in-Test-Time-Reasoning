@@ -2,6 +2,7 @@
 
 # Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
 
+<<<<<<< HEAD
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#key-findings">Key Findings</a> •
@@ -33,6 +34,14 @@
 ## Overview
 
 This repository contains the complete, end-to-end reproducible pipeline for the paper **"Training Quality Determines Efficiency Boundaries in Test-Time Reasoning"** — a systematic empirical study of when additional inference tokens help, hurt, or have no effect on language model reasoning.
+=======
+## Overview
+
+This repository provides complete code and data for reproducing all experiments,
+figures, and tables in the paper. The study examines how training methodology
+determines token efficiency in language model reasoning across all models and
+67,000+ evaluations.
+>>>>>>> 9c8493eddcb6ec770a3a048a0e202892081f3042
 
 The central finding challenges the prevailing test-time compute paradigm: **training quality yields a 5.0–18.8× efficiency advantage at matched parameter scales**, exceeding the gains from ten-fold parameter increases. We evaluate 50 language models (0.5B–685B parameters) across six reasoning benchmarks totalling over 67,000 individual assessments.
 
