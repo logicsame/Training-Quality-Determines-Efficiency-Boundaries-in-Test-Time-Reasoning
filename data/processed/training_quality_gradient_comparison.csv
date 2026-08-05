@@ -1,0 +1,14 @@
+model,diversity_change_pct,repetition_change_pct,self_regulation,token_usage_pct,tokens_per_step
+kimi2.5_1t_32b_sctive_model,39.5,-65.4,Strong,7.4,327.0
+glm_4.7_355 billion_32b_model,33.4,-50.2,Strong,13.0,321.6
+glm_4.5_model,29.8,-53.2,Strong,12.1,282.2
+SkyworkSkywork-o1-Open-Llama-3.1-8B_model,-3.5,4.6,Strong,7.3,53.4
+QwenQwQ-32B-Preview_model,-12.3,18.3,Strong,6.2,55.0
+deepseek-aiDeepSeek-R1-Distill-Llama-70B_model,-20.9,44.7,Strong,8.9,45.4
+deepseek-aiDeepSeek-R1-Distill-Qwen-14B_model,-33.0,47.5,Strong,31.0,57.2
+qwenqwen3-32b_o1_model,-40.9,69.5,Strong,20.3,56.5
+nvidiaOpenReasoning-Nemotron-7B_model,-41.5,49.6,Strong,45.4,66.4
+deepseek-r1-685b_model,-42.0,69.5,Strong,19.4,48.7
+AIDC-AIMarco-o1_7b_model,-56.4,90.5,Weak,86.6,99.1
+deepseek-aiDeepSeek-R1-Distill-Qwen-7B_model,-61.8,71.2,Moderate,66.0,40.6
+deepseek-aiDeepSeek-R1-Distill-Qwen-1.5B_model,-84.5,48.9,Weak,95.9,37.6

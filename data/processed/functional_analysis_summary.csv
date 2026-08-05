@@ -1,0 +1,53 @@
+model,dataset,diversity_change_pct,repetition_change_pct,self_regulation,token_usage_pct,efficiency,tokens_per_step,net_change_last
+AIDC-AIMarco-o1_7b_model,arc-easy,-76.4,267.3,Weak,98.2,Poor,488.4,0
+AIDC-AIMarco-o1_7b_model,boolq,-42.1,104.0,Moderate,60.6,Poor,824.2,0
+AIDC-AIMarco-o1_7b_model,gpqa,-72.9,207.8,Weak,98.2,Good,87.1,1
+AIDC-AIMarco-o1_7b_model,gsm8k,-56.4,90.5,Weak,86.6,Good,99.1,0
+QwenQwQ-32B-Preview_model,arc-easy,-4.2,14.6,Strong,3.9,Poor,258.7,0
+QwenQwQ-32B-Preview_model,boolq,-2.0,40.8,Strong,2.8,Good,81.1,0
+QwenQwQ-32B-Preview_model,gpqa,-32.3,72.0,Strong,19.8,Good,74.7,0
+QwenQwQ-32B-Preview_model,gsm8k,-12.3,18.3,Strong,6.2,Good,55.0,0
+SkyworkSkywork-o1-Open-Llama-3.1-8B_model,arc-easy,-28.3,0.9,Strong,45.3,Poor,1066.6,0
+SkyworkSkywork-o1-Open-Llama-3.1-8B_model,boolq,-3.9,0.3,Strong,13.7,Poor,535.9,0
+SkyworkSkywork-o1-Open-Llama-3.1-8B_model,gpqa,-40.5,25.7,Strong,42.9,Poor,149.6,-1
+SkyworkSkywork-o1-Open-Llama-3.1-8B_model,gsm8k,-3.5,4.6,Strong,7.3,Good,53.4,0
+deepseek-aiDeepSeek-R1-Distill-Llama-70B_model,arc-easy,-23.5,104.4,Strong,7.8,Poor,485.3,0
+deepseek-aiDeepSeek-R1-Distill-Llama-70B_model,boolq,-12.4,24.7,Strong,11.1,Poor,305.2,0
+deepseek-aiDeepSeek-R1-Distill-Llama-70B_model,gpqa,-59.5,248.0,Moderate,52.9,Good,54.4,6
+deepseek-aiDeepSeek-R1-Distill-Llama-70B_model,gsm8k,-20.9,44.7,Strong,8.9,Good,45.4,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-1.5B_model,arc-easy,-9.5,14.1,Strong,16.2,Poor,522.4,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-1.5B_model,boolq,-29.9,18.9,Strong,33.8,Poor,253.1,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-1.5B_model,gpqa,-39.3,68.7,Strong,42.9,Good,50.6,-1
+deepseek-aiDeepSeek-R1-Distill-Qwen-1.5B_model,gsm8k,-84.5,48.9,Weak,95.9,Good,37.6,-1
+deepseek-aiDeepSeek-R1-Distill-Qwen-14B_model,arc-easy,-6.7,14.3,Strong,7.8,Poor,207.0,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-14B_model,boolq,-3.4,41.1,Strong,1.9,Good,61.2,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-14B_model,gpqa,-46.9,121.1,Moderate,57.0,Good,58.4,1
+deepseek-aiDeepSeek-R1-Distill-Qwen-14B_model,gsm8k,-33.0,47.5,Strong,31.0,Good,57.2,-2
+deepseek-aiDeepSeek-R1-Distill-Qwen-7B_model,arc-easy,-24.8,83.0,Strong,19.7,Poor,258.7,1
+deepseek-aiDeepSeek-R1-Distill-Qwen-7B_model,boolq,-26.6,30.4,Strong,33.0,Poor,136.7,0
+deepseek-aiDeepSeek-R1-Distill-Qwen-7B_model,gpqa,-62.4,199.6,Weak,80.2,Good,63.0,-1
+deepseek-aiDeepSeek-R1-Distill-Qwen-7B_model,gsm8k,-61.8,71.2,Moderate,66.0,Good,40.6,0
+deepseek-r1-685b_model,arc-easy,-8.0,13.0,Strong,15.8,Poor,539.7,-1
+deepseek-r1-685b_model,boolq,-20.1,94.6,Strong,7.8,Poor,311.2,0
+deepseek-r1-685b_model,gpqa,-3.7,4.2,Weak,74.3,Good,48.8,5
+deepseek-r1-685b_model,gsm8k,-42.0,69.5,Strong,19.4,Good,48.7,0
+glm_4.5_model,arc-easy,-9.2,6.4,Strong,14.6,Poor,525.0,1
+glm_4.5_model,boolq,-68.5,236.6,Strong,11.4,Poor,914.8,0
+glm_4.5_model,gpqa,-29.1,137.5,Weak,73.2,Poor,708.5,17
+glm_4.5_model,gsm8k,29.8,-53.2,Strong,12.1,Poor,282.2,1
+glm_4.7_355 billion_32b_model,arc-easy,-3.1,-6.6,Strong,15.2,Poor,751.4,1
+glm_4.7_355 billion_32b_model,boolq,-60.1,221.3,Strong,8.7,Poor,696.8,0
+glm_4.7_355 billion_32b_model,gpqa,-18.1,26.3,Moderate,67.6,Poor,1185.7,6
+glm_4.7_355 billion_32b_model,gsm8k,33.4,-50.2,Strong,13.0,Poor,321.6,1
+kimi2.5_1t_32b_sctive_model,arc-easy,5.0,-21.1,Strong,9.9,Poor,682.6,0
+kimi2.5_1t_32b_sctive_model,boolq,-58.3,171.5,Strong,5.8,Poor,465.9,0
+kimi2.5_1t_32b_sctive_model,gpqa,-19.6,58.2,Weak,70.9,Poor,1121.4,10
+kimi2.5_1t_32b_sctive_model,gsm8k,39.5,-65.4,Strong,7.4,Poor,327.0,-2
+nvidiaOpenReasoning-Nemotron-7B_model,arc-easy,-20.1,42.8,Strong,17.8,Poor,379.3,1
+nvidiaOpenReasoning-Nemotron-7B_model,boolq,-43.5,81.2,Strong,44.0,Poor,263.0,0
+nvidiaOpenReasoning-Nemotron-7B_model,gpqa,-60.1,142.6,Weak,85.2,Good,61.4,3
+nvidiaOpenReasoning-Nemotron-7B_model,gsm8k,-41.5,49.6,Strong,45.4,Good,66.4,8
+qwenqwen3-32b_o1_model,arc-easy,-19.9,81.0,Strong,7.3,Poor,365.4,0
+qwenqwen3-32b_o1_model,boolq,-0.4,10.8,Strong,2.8,Poor,187.4,-2
+qwenqwen3-32b_o1_model,gpqa,-65.8,342.5,Moderate,51.6,Good,61.9,-4
+qwenqwen3-32b_o1_model,gsm8k,-40.9,69.5,Strong,20.3,Good,56.5,0
