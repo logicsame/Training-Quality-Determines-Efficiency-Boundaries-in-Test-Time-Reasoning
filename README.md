@@ -170,10 +170,10 @@ Experiment outputs and processed results are organized as follows:
 | Phase 2b causal results | `data/processed/` | Brief vs. control, 1,441 paired responses |
 | Annotation data | `data/annotations/` | 58 manually annotated failures (κ = 0.886) |
 | Inverse scaling IDs | `data/inverse_scaling_problem_ids.json` | 115 problem IDs used for causal selection |
-| **Phase 3 — full token ablation** | **🤗 Hugging Face** | 13 models × 4 datasets × 6 token limits (288 conditions, Table S4) |
-| **Phase 3 — mechanistic dimensions** | **🤗 Hugging Face** | Diversity, repetition, utilization, tokens/step for all models × datasets (Table S3) |
-| **Q-score tables** | **🤗 Hugging Face** | Q-scores, tier assignments, cross-dataset generalization (Tables S5, S7, S8) |
-| **Phase 1 raw results (full)** | **🤗 Hugging Face** | Complete per-response outputs for all 31 standard models |
+| **Phase 3 — full token ablation** | [🤗 Hugging Face](https://huggingface.co/datasets/Md-Hakim/training-quality-reasoning-efficiency) | 13 models × 4 datasets × 6 token limits (288 conditions, Table S4) |
+| **Phase 3 — mechanistic dimensions** | [🤗 Hugging Face](https://huggingface.co/datasets/Md-Hakim/training-quality-reasoning-efficiency) | Diversity, repetition, utilization, tokens/step for all models × datasets (Table S3) |
+| **Q-score tables** | [🤗 Hugging Face](https://huggingface.co/datasets/Md-Hakim/training-quality-reasoning-efficiency) | Q-scores, tier assignments, cross-dataset generalization (Tables S5, S7, S8) |
+| **Phase 1 raw results (full)** | [🤗 Hugging Face](https://huggingface.co/datasets/Md-Hakim/training-quality-reasoning-efficiency) | Complete per-response outputs for all 31 standard models |
 
 > **All Hugging Face data** is in a single dataset repository. Download before running Phase 3 analyses:
 > ```bash
