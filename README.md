@@ -177,7 +177,7 @@ Experiment outputs and processed results are organized as follows:
 
 > **All Hugging Face data** is in a single dataset repository. Download before running Phase 3 analyses:
 > ```bash
-> huggingface-cli download [username]/training-quality-reasoning-efficiency \
+> huggingface-cli download Md-Hakim/training-quality-reasoning-efficiency \
 >     --repo-type dataset \
 >     --local-dir data/
 > ```
@@ -192,7 +192,7 @@ Experiment outputs and processed results are organized as follows:
 All paper results can be reproduced from cached data in minutes:
 
 ```bash
-git clone https://github.com/[username]/Training-Quality-Determines-Efficiency
+git clone https://github.com/logicsame/Training-Quality-Determines-Efficiency
 cd Training-Quality-Determines-Efficiency
 
 pip install -e .
@@ -225,7 +225,7 @@ See [Reproducing All Results](#reproducing-all-results) below.
 ## Installation
 
 ```bash
-git clone https://github.com/[username]/Training-Quality-Determines-Efficiency
+git clone https://github.com/logicsame/Training-Quality-Determines-Efficiency
 cd Training-Quality-Determines-Efficiency
 
 # Create a virtual environment (recommended)
