@@ -491,14 +491,7 @@ All experiments use **greedy decoding** (`do_sample=False`) as the primary setti
 
 > 📄 **[Paper](https://doi.org/[YOUR_DOI_HERE])** 
 
-```bibtex
-@article{training-quality-efficiency-2025,
-  title   = {Training Quality Determines Efficiency Boundaries in Test-Time Reasoning},
-  year    = {2025},
-  doi     = {[YOUR_DOI_HERE]},
-  url     = {https://doi.org/[YOUR_DOI_HERE]}
-}
-```
+
 
 ---
 
